@@ -7,5 +7,5 @@ This script hooses a random port between 49151 and 65535 (so-called dynamic port
 Read more [here](https://mrpsycho.pl/cheatsheets/Bash-script-for-disabling-password-login/)
 
 ```
-wget https://i.mrpsycho.pl/selif/securessh.sh && bash securessh.sh && bash securessh.sh
+wget https://i.mrpsycho.pl/selif/securessh.sh && bash securessh.sh
 ```
