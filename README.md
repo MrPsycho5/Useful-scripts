@@ -9,3 +9,12 @@ Read more [here](https://mrpsycho.pl/cheatsheets/Bash-script-for-disabling-passw
 ```
 wget https://i.mrpsycho.pl/selif/securessh.sh && bash securessh.sh
 ```
+
+# qrn.sh
+
+QRN stands for quick rename. The script renames a certain file to it's parent folder name. It can also take a few files at once, for example `qrn file1 file2` or `qrn *`, as well as subdirectories `qrn folder/file` or `qrn */*`, but watch out as the files from subdirectories will be moved to the folder the command is run in.
+
+```
+wget https://i.mrpsycho.pl/qrn.sh && mv qrn.sh /usr/local/bin/qrn && sudo chmod +x /usr/local/bin/qrn
+```
+
