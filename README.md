@@ -15,6 +15,6 @@ wget https://i.mrpsycho.pl/selif/securessh.sh && sudo bash securessh.sh
 QRN stands for quick rename. The script renames a certain file to it's parent folder name. It can also take a few files at once, for example `qrn file1 file2` or `qrn *`, as well as subdirectories `qrn folder/file` or `qrn */*`, but watch out as the files from subdirectories will be moved to the folder the command is run in.
 
 ```
-wget https://i.mrpsycho.pl/qrn.sh && mv qrn.sh /usr/local/bin/qrn && sudo chmod +x /usr/local/bin/qrn
+wget https://i.mrpsycho.pl/selif/qrn.sh && sudo mv qrn.sh /usr/local/bin/qrn && sudo chmod +x /usr/local/bin/qrn
 ```
 
